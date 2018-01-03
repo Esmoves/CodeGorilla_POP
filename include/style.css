@@ -7,7 +7,7 @@ body {
 
 #container{
     background-color: #8D1F0F;
-    max-width: 900px;
+    max-width: 800px;
     margin: 0px auto;
   /*  padding-bottom: 140px;  ipv content top en hoogte van fixed menu  */
     display: block;
@@ -15,9 +15,9 @@ body {
 
 div.content{
     background-color: #B2E5E3;
-    max-width: 740px;
+    max-width: 600px;
     min-height: 600px;
-    margin: 0 auto;
+    margin: 10px auto;
     padding: 20px 40px;
     border-radius: 20px;
     z-index: 1;
@@ -31,6 +31,10 @@ h1{
 
 h2{
     color: #8D1F0F ;
+    width: 100%;
+    border-top: 2px dotted #8D1F0F;
+    margin-top: 60px;
+    padding-top: 20px;
 }
 
 h3{
@@ -41,77 +45,29 @@ a{
     color: black;
 }
 
+a.cleanlink{
+    border: none;
+    text-decoration: none;
+    color: black;
+}
+
 div.center{
     text-align: center;
 }
 
-/******************************************/
-/******************************************/
-/* animation in CSS3 for floating picture */
-/******************************************/
-/******************************************/
- div#esmo {
-    position: relative;
-    top: -180px;
-    height: 200px;
-    color: #fff;
-    z-index: 2; /* to make it behind menu and on top of content */
-  }
 
-  div.pictureEsmo {
-    position: absolute;
-    bottom: 0px;
-    left: 20px;
-    -webkit-transition: 3s ease-in;
-    -moz-transition: 3s ease-in;
-    -o-transition: 3s ease-in;
-    transition: 3s ease-in;
-  }
-  div.pictureEsmo div {
-    width: 127px;
-    height: 200px;
-    background: url("../images/headerEsmoSmall.jpg") no-repeat;
-    -webkit-transition: 2s ease-in-out;
-    -moz-transition: 2s ease-in-out;
-    -o-transition: 2s ease-in-out;
-    transition: 2s ease-in-out;
-     opacity 
-  }
-
-  /* move with hover and make it dissappear  */
-  #esmo:hover div.pictureEsmo {
-    opacity: 0 ; 
-    filter: alpha(opacity=100); /* For IE8 and earlier */
-    -webkit-transform: translate(740px,-200px);
-    -moz-transform: translate(740px,-200px);
-    -o-transform: translate(740px,-200px);
-    -ms-transform: translate(740px,-200px);
-    transform: translate(740px,-200px);
-
-  }
-  #esmo:hover div.pictureEsmo div {
-    -webkit-transform: rotate(70deg);
-    -moz-transform: rotate(70deg);
-    -o-transform: rotate(70deg);
-    -ms-transform: rotate(70deg);
-    transform: rotate(70deg);
-  }
-
-/*----- MAIN Menu Outline -----
--------- on top of page with a dropmenu ------- */
+/************************************/
+/************ main menu *************/
+/************************************/
+/*-------- on top of page with a dropmenu ------- */
 div.menu-wrap {
-    width:100%;
     background-color: #D8541D;
-    max-width: 900px;
+    width:100%;
+    max-width: 800px;
     height: 40px;
     position: fixed; /* Set the navbar to fixed position */
     top: 30px; /* Position the navbar at the top of the page */
     z-index: 3; /* to get the animation behind it and content under it */
-}
-
-nav.menu {
-  max-width: 900px;
-  margin:0px auto;
 }
 
 /* clearfix om de bug die eerdere tutorial menus van w3schools tegenwerkten op te lossen
@@ -120,22 +76,21 @@ To stop the bug where, if a parent element has a floated child element, it will 
 ul.clearfix:after {
     display:block;
     clear:both;
+    margin:0;
+    padding:0;
+    list-style-type:none;
 }
 
-/************************************/
-/************ main menu *************/
-/************************************/
-li {
+.clearfix li {
+    display:inline-block;
     float:left;
-    list-style:none;
     cursor: pointer;
 }
 
-li a.knopFormulier {
+a.knopFormulier {
     background-color: #F8981C;
     margin:0 1px 0 0; 
     padding: 10px;
-    font-size: 18px; 
     box-shadow: 5px 5px 3px #18414e;
     -webkit-box-shadow: 5px 5px 3px #18414e;
     -moz-box-shadow: 5px 5px 3px #18414e;
@@ -171,42 +126,63 @@ a.knopFormulier:active {
 
 .dropdown ul{   
     display: none;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .dropdown li{
     float: none;
+    display: block;
+    position: relative;
 }
 
 /* Show on hover */
 .dropdown:hover ul {
     display: block;
+    position: absolute;
 }
 
+.dropdown ul ul{
+    left: 100%;
+    top: -9px;
+}
+
+.dropdown ul ul li{
+    display: none;
+}
+
+.dropdown ul li:hover ul li{
+    display: block;
+}
+
+ul:before, ul:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+ 
+ul:after { clear: both; }
+
 /* layout button in dropdown */
-a.dropdownBtn{
+a.dropdownBtn, a.dropAbout, a.dropPOP{
     background-color: #F8981C;
-    margin-left:-35px;
+    margin-left:-37px;
     padding: 10px;
-    font-size: 18px; 
+    text-decoration: none;
     box-shadow: 5px 5px 3px #18414e;
     -webkit-box-shadow: 5px 5px 3px #18414e;
     -moz-box-shadow: 5px 5px 3px #18414e;
- /*   border-radius: 15px; */
     font-variant: small-caps; 
- /*   width: 121px; */
-     width: 100px;
-     display: block;
+    width: 80px;
+    display: block;
 }
 
-a.dropdownBtn:hover {
+a.dropdownBtn:hover, a.dropAbout:hover, a.dropPOP:hover{
     background-color: #8D1F0F;
     color: white;
     transition:all linear 0.15s;
     display: block;
 }
 
-a.dropdownBtn:active {
+a.dropdownBtn:active, a.dropAbout:active a.dropPOP:active{
     background-color: #67170B;
     text-shadow:0px 1px 0px rgba(0,0,0,0.4);
     box-shadow: 2px 2px 3px #18414e;
@@ -216,6 +192,65 @@ a.dropdownBtn:active {
     transition:all linear 0.15s;
 }
 
+a.dropAbout{
+    width: 50px;
+}
+
+a.dropPOP{
+    width: 100px;
+}
+
+
+/******************************************/
+/******************************************/
+/* animation in CSS3 for floating picture */
+/******************************************/
+/******************************************/
+ div#esmo {
+    position: relative;
+    top: -50px;
+    left: -80px;
+    height: 170px;
+    color: #fff;
+    z-index: 2; /* to make it behind menu and on top of content */
+  }
+
+  div.pictureEsmo {
+    position: absolute;
+    -webkit-transition: 3s ease-in;
+    -moz-transition: 3s ease-in;
+    -o-transition: 3s ease-in;
+    transition: 3s ease-in;
+  }
+  div.pictureEsmo div {
+    width: 180px;
+    height: 253px;
+    background: url("../images/headerEsmo.gif") no-repeat;
+    background-size: 180px;
+    -webkit-transition: 2s ease-in-out;
+    -moz-transition: 2s ease-in-out;
+    -o-transition: 2s ease-in-out;
+    transition: 2s ease-in-out;
+  }
+
+  /* move with hover and make it dissappear  */
+  #esmo:hover div.pictureEsmo {
+    opacity: 0 ; 
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+    -webkit-transform: translate(740px,-200px);
+    -moz-transform: translate(740px,-200px);
+    -o-transform: translate(740px,-200px);
+    -ms-transform: translate(740px,-200px);
+    transform: translate(740px,-200px);
+
+  }
+  #esmo:hover div.pictureEsmo div {
+    -webkit-transform: rotate(70deg);
+    -moz-transform: rotate(70deg);
+    -o-transform: rotate(70deg);
+    -ms-transform: rotate(70deg);
+    transform: rotate(70deg);
+  }
 
 
 /******************************************************************/
@@ -260,6 +295,355 @@ input[type=submit]:hover {
     margin: 0 auto;
 } 
 
+
+/********************************************/
+/********************************************/
+/******* voor POP page  *********************/
+/********************************************/
+/********************************************/
+
+ul.pop{
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+ul.pop li{
+    float: left;
+    margin: 1px; 
+    margin-bottom: 20px;
+}
+
+ul.pop li a{
+    background-color: #D8541D;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/******************************************
+/******** CHARTS *************************/
+/*****************************************/
+dl{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: rgba(0, 0, 0, .1);
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+    padding: 10px;
+}
+
+dt {
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    width: 90%;
+    display: block;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.text {
+    font-weight: 600;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 40px;
+    width: 80px;
+    position: absolute;
+    left: 20px;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.percentage {
+    font-size: .8em;
+    line-height: 1;
+    text-transform: uppercase;
+    width: 70%;
+    height: 40px;
+    margin-left: 110px;
+    background: repeating-linear-gradient(to right, #ddd, #ddd 1px, #fff 1px, #fff 5%);
+    }
+  
+  .percentage:after {
+    content: "";
+    display: block;
+    background-color: #3d9970;
+    width: 50px;
+    margin-bottom: 10px;
+    height: 90%;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: background-color .3s ease;
+    transition: background-color .3s ease;
+    cursor: pointer;
+  }
+
+.percentage:hover:after, .percentage:focus:after {
+  background-color: #aaa;
+}
+
+.percentage-1:after {
+  width: 1%;
+}
+
+.percentage-5:after {
+  width: 5%;
+}
+
+.percentage-10:after {
+  width: 10%;
+}
+
+.percentage-15:after {
+  width: 15%;
+}
+
+.percentage-20:after {
+  width: 20%;
+}
+
+.percentage-25:after {
+  width: 25%;
+}
+
+.percentage-30:after {
+  width: 30%;
+}
+
+.percentage-35:after {
+  width: 35%;
+}
+
+.percentage-40:after {
+  width: 40%;
+}
+
+.percentage-45:after {
+  width: 45%;
+}
+
+.percentage-50:after {
+  width: 50%;
+}
+
+.percentage-55:after {
+  width: 55%;
+}
+
+.percentage-60:after {
+  width: 60%;
+}
+
+.percentage-65:after {
+  width: 65%;
+}
+
+.percentage-70:after {
+  width: 70%;
+}
+
+.percentage-75:after {
+  width: 75%;
+}
+
+.percentage-80:after {
+  width: 80%;
+}
+
+.percentage-85:after {
+  width: 85%;
+}
+
+.percentage-90:after {
+  width: 90%;
+}
+
+.percentage-95:after {
+  width: 95%;
+}
+
+.percentage-100:after {
+  width: 100%;
+}
+
+
+
+/*******************************************/
+/*******************************************/
+/*********** Lists *************************/
+/*******************************************/
+
+ul.regular{
+    list-style-type: circle;
+}
+
+.regular a{
+    text-decoration: none;
+}
+
+
+.checklist{
+  width: 80%;
+  height: auto;
+  padding: 5px 30px;
+  clear: both; 
+  overflow: visible;
+  margin: 0 auto;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  box-shadow: 2px 5px 5px 0px #476d3b;
+  position: relative;
+}
+
+.list{
+  margin: 10px 15px;
+  position: relative;
+  font-size: 0.8em;
+  border-bottom: 1px solid #5a8445;
+}
+
+.inner{
+    margin-left: 50px;
+}
+
+.check:before{
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: -24px;
+  width: 2px;
+  height: 8px;
+  transform: rotate(-45deg);
+  background: #5a8445;
+}
+
+.check:after{
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: -16px;
+  width: 2px;
+  height: 17px;
+  transform: rotate(45deg);
+  background: #5a8445;
+}
+
+
+/*****************  Time table   */
+
+.graph_stacked {
+    border-width: 0 0 1px 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, .25);
+    height: 250px;
+    margin: 0 0 15px 0;
+    position: relative;
+    white-space: nowrap;
+    background: rgba(0, 0, 0, .1);
+}
+
+.bar p{
+    font-size: 0.8em;
+}
+.seg p{
+    font-size: 0.7em;
+    margin:0;
+}
+
+.graph_stacked .col {
+    display: inline-block;
+    margin: 0 0 0 1px;
+    height: 100%;
+    vertical-align: bottom;
+    position: relative;
+    width: 19%;
+}
+.graph_stacked .col .bar {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 100%;
+}
+.graph_stacked .col .bar:first-child {
+    height: 100%;
+    margin: 0;
+    width: 0;
+}
+.graph_stacked .col .bar .seg {
+    display: block;
+    background: #22bbee;
+}
+.graph_stacked .col .bar .seg.middle { background: #FF901C; }
+.graph_stacked .col .bar .seg.top { background: #FF3F1C; }
+
+
+
+
+
+
+/***************************************************/
+/***************************************************/
+/******* pop up van images by hover over  *********/
+/**************************************************/
+/**************************************************/
+
+div.portfolio_show_items{
+    height: auto;
+    display: inline-block;
+    position: relative;
+}
+
+div.portfolio_show_items img{
+    padding: 10px;
+}
+
+a.imgonhover{
+    display: inline-block;
+    position: relative;
+}
+
+div.popup{
+    display: none;
+    position: absolute;
+    top: -5em;
+    left: 5em;
+    padding: 0;
+    margin: 0;
+    z-index: 2;
+}
+.popup.last{
+    display: none;
+    position: absolute;
+    top: -5em;
+    left: -15em;
+    padding: 0;
+    margin: 0;
+    z-index: 2;
+}
+
+a.imgonhover:hover>div.popup{
+    display: block;
+}
+
+
 /********************************************/
 /********************************************/
 /******* voor de sneeuwman animatie *********/
@@ -267,15 +651,15 @@ input[type=submit]:hover {
 /********************************************/
 #animatie {
     position: relative;
-    border: 2px dotted black;
     height: 420px;
     width:900px;
 }
 
 /* voor de sneeuwman */
 #snowman{
-  position: absolute;
-  border: 2px dotted black;
+    position: absolute;
+    height: 420px;
+    width:900px;
 }
 
 
@@ -290,6 +674,7 @@ input[type=submit]:hover {
     color: white;
     text-align: center;
     margin-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 .footer a{
@@ -299,4 +684,97 @@ input[type=submit]:hover {
 
 .footer a:hover{
     text-decoration: underline;
+}
+
+
+/* Added styles for your phone view */
+/* fix the menu on a small screen like a phone */
+/* fix the animation picture that normally reacts on hover */
+
+/* Hide the'Show Menu' button by default*/
+.show-menu {
+    color: #fff;
+    background: #D8541D;
+    text-decoration: none;
+    text-align: center;
+    font-variant: small-caps;
+    padding: 10px 0;
+    display: none;
+}
+
+.show-menu:hover{
+    background-color: #8D1F0F;
+    color: white;
+    transition:all linear 0.15s;
+}
+
+.show-menu:active {
+    background-color: #67170B;
+    color: #898284;
+    transition:all linear 0.15s;
+}
+
+
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+    -webkit-appearance: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ ul#menuUl{
+    display: block;
+}
+
+/*Responsive Styles*/
+@media only screen and (max-width: 600px){
+    .container{
+        width:100%;
+    }
+
+    div.content {
+        width:90%;
+        padding: 10px;
+        margin: 5px auto;
+    }
+    
+    div.menu-wrap { 
+        width: 95%;
+    }
+  
+    /* The "responsive" class is added to the nav.menu with JavaScript 
+    when the user clicks on the icon to display the links vertically 
+    instead of horizontally) */
+    ul#menuUl{
+        position: static;
+        display: none;
+        margin-left: -40px;
+    }
+
+    li a.knopFormulier{
+    margin:0 1px 0 0; 
+    padding: 10px 5px;
+    box-shadow: none;
+    font-size: 0.8em;
+    }
+
+    li a.dropdownBtn{
+        font-size: 0.8em;
+        width: 60px;
+    }
+
+    li a.dropAbout{
+        font-size: 0.8em;
+        width: 35px;
+    }
+
+   /*Display 'show menu' link*/
+    .show-menu {
+        display:block;
+    }
+
+    div#esmo {
+    display: none;
+  }
+
 }
