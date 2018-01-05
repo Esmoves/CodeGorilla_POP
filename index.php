@@ -56,7 +56,7 @@
           
           <h1>Esmeralda Tijhoff</h1>
           <p>
-            Welcome on this webpage! The internet can be a very anonimous place, so let's dive into getting to know each other. My name is Esmeralda Tijhoff. I have created these pages to inform people about my abilities as a programmer and a designer. This website will be filled with apps and web environments that I create, just look under Portfolio. But this site is not just to inform people. In the menu, you can find the POP button. On this page, I will keep track of my goals, timescedule, needed tools and my achievements so far. If you were ever interested in knowing how a coder is born, just surf by on a regular basis to watch me grow!</p>
+            Welcome on this webpage! The internet can be a very anonymous place, so let's get to know each other. My name is Esmeralda Tijhoff. I have created these pages to inform people about my abilities as a programmer and a designer. This website will be filled with apps and web environments that I create, just look under Portfolio. But this site is not just to inform people. In the menu, you can find the POP button. On this page, I will keep track of my goals, time schedule, needed tools and my achievements so far. If you were ever interested in knowing how a coder is born, just surf by on a regular basis to watch me grow!</p>
             <div class="center">
                 Interested in History? Check my profile at the University of Groningen</br>
                 <a href="http://www.rug.nl/staff/a.e.tijhoff" target="_blank">
@@ -83,9 +83,9 @@
              <h1>Esmeralda Tijhoff</h1>
           <p>  As a child, I always wanted to be an inventor or an astronomer. I loved math. So I was a volunteer at the Cosmos Sterrenwacht Lattrop during high-school, wrote a small book about quarks and superstrings and tried to get my head around singularities in black holes. But I never made it to study mathematics. I enrolled in History instead, a study I believed would be better suited for a storyteller and writer like myself. With history, I could understand society and its inhabitants better.
          </p><p>
-          But my beta-side found a way to surface again when I looked for ways to share valuable information with the world. My first website was build in HTML and includes some iframes,… It was a long, long, long time ago. It contained all the feminist articles I came across, all the activities in the Netherlands on feminism, LGTB and Womensissues, and all the address of queer, gay bars I could find. Next I build a national website for De Heksennacht, and I learned PHP with MySQL to manage all the extensive data I collected. I also mastered Photoshop to be able to make my designs. It was also very helpful to create posters, flyers and other material for my PR activities.
+          But my beta-side found a way to surface again when I looked for ways to share valuable information with the world. My first website was built in HTML and includes some iframes,… It was a long, long, long time ago. It contained all the feminist articles I came across, all the activities in the Netherlands on feminism, LGTB and Womensissues, and all the address of queer, gay bars I could find. Next I build a national website for De Heksennacht, and I learned PHP with MySQL to manage all the extensive data I collected. I also mastered Photoshop to be able to make my designs. It was also very helpful to create posters, flyers and other material for my PR activities.
             </p><p>
-          I build a lot more websites on the way, improving my skills with the help of my dear friend and the internet. Before I knew it, I could start a business in webdesign and development called Fonkel, a name that hinted to the glistering of an emerald. When I started as a PHD-student at the university in 2010, I had to end Fonkel. Since then, I have build my sites using WordPress so non-programmers can easily manage and update them. But who knows, I might start coding again. 
+          I build a lot more websites on the way, improving my skills with the help of my dear friend and the internet. Before I knew it, I could start a business in webdesign and development called Fonkel, a name that hinted to the glistering of an emerald. When I started as a PHD-student at the university in 2010, I had to end Fonkel. Since then, I have built my sites using WordPress so non-programmers can easily manage and update them. But who knows, I might start coding again. 
             </p>
             <div class="center">
               <img src="./images/esmeralda_cartoon.png" alt="cartoon" width="80%" />
@@ -112,7 +112,7 @@
                 </dl>
               </div> 
               
-              <p>In December 2017, I started with a month of homestudy to gain the basic knowledge of programming with HTML5, CSS3 and Javascript. To be fair, I already knew the basics of HTML4 and CSS2 so these two were easy for me to reacquaint myself with. Since I had not been active as a coder since 2010, I had a lot to catch up with. I updated my knowledge using Sololearn and <a href="https://www.khanacademy.org/profile/Esmoves/" target="_blank">Khanacademy</a> and ofcourse W3school.
+              <p>In December 2017, I started with a month of home study to gain the basic knowledge of programming with HTML5, CSS3 and Javascript. To be fair, I already knew the basics of HTML4 and CSS2 so these two were easy for me to reacquaint myself with. Since I had not been active as a coder since 2010, I had a lot to catch up with. I updated my knowledge using Sololearn and <a href="https://www.khanacademy.org/profile/Esmoves/" target="_blank">Khanacademy</a> and ofcourse W3school.
               </p><p>Javascript was totally new to me, so I had to dive into it the hard way. I started with Sololearn, but still didn't feel like I had any idea about JS after finishing the course. So I took up <a href="https://www.khanacademy.org/profile/Esmoves/" target="_blank">Khanacademy</a>, Intro to JS: Drawing & Animation. And after I finished that one, I also entered the course HTML/JS: Making webpages interactive.</p>
               
               <p>As you can see in the chart for 5 Januari 2018, I have obtained the basic level for Javascript and I am working on a advanced level for HTML5 and CSS3. I have also started with GitHub. My work in PHP will take off shortly.
@@ -121,7 +121,7 @@
               <div class="mypop">
                 <dl>
                   <dt>
-                    My progress dd 5th Januari 2018
+                    My progress dd 5th January 2018
                   </dt>
                   <dd class="percentage percentage-50"><span class="text">HTML5</span></dd>
                   <dd class="percentage percentage-55"><span class="text">CSS3</span></dd>
@@ -132,7 +132,7 @@
               </div> 
 
               <h3>To sum up, I am a coder</h3>
-              <p>I can understand other peoples codes, rearrange them and implement them in my own pages. I am able to write my own webpages in HTML5 and CSS3. I am also capable of reading and understanding Javascript and implementing scripts in my own work. I have made a modest start in writing my own JS scripts. My biggest challange is to master what is actually happening with these codes. If I can understand this, I can be a programmer!</p> 
+              <p>I can understand other people’s codes, rearrange them and implement them in my own pages. I am able to write my own webpages in HTML5 and CSS3. I am also capable of reading and understanding Javascript and implementing scripts in my own work. I have made a modest start in writing my own JS scripts. My biggest challenge  is to master what is actually happening with these codes. If I can understand this, I can be a programmer!</p> 
 
               <div class="center">
               <a href="https://www.khanacademy.org/profile/Esmoves/" target="_blank"><img src="./images/khanacademy.png" alt="badges from Khanacademy" width="250px" /></a>
@@ -148,7 +148,7 @@
 
               <h2 id="goals">My goals</h2>
               <p>
-              At the moment, I function at the level of a coder. This means I can write basic codes and interpret codes other peoples and implement them in my own pages. But I wish to fully understand the programlaguages. I want to gain proficiency at a professional level of the programming languages ​​HTML5, CSS3, Javascript and PHP. And, if it fits in the timescedule: C and C++.
+              At the moment, I function at the level of a coder. This means I can write basic codes and interpret codes other peoples and implement them in my own pages. But I wish to fully understand the programming languages. I want to gain proficiency at a professional level of the programming languages ​​HTML5, CSS3, Javascript and PHP. And, if it fits in the time schedule: C and C++ or building Android Apps.
               </p>
 
               <div class="mypop">
@@ -188,9 +188,9 @@
                       <div class="list check inner">responsive width for small devices</div>
                       <div class="list check inner">a funny animation in CSS3</div>
                       <div class="list check inner">a working contactform with validation and alerts in PHP and Javascripts</div>
-                      <div class="list uncheck">a portfolio page with pop ups for the Javascript animations</div> 
+                      <div class="list check inner">a portfolio page with pop ups for the Javascript animations</div> 
                   <div class="list check">developing an adressbook in Javascript</div>
-                  <div class="list uncheck">transforming this adressbook into an app for android or Iphone</div>
+                  <div class="list uncheck">transforming this adressbook into an app for android or IPhone</div>
                   <div class="list uncheck">participating in a Hackaton</div>  
                   <div class="list uncheck">building a small game in Javascript</div>  
               </div> 
@@ -198,8 +198,8 @@
 
               
               <h2 id="planning">My planning</h2>
-              <p>It is always difficult to attach a timeframe to gainig skills and experience. But in this case I can work within a set timeframe since CodeGorilla offers a three months training in Javascript and PHP. </p>
-              <p>As you can see in the scedule below, I anticipate to be on a 'pro' level for HTML5 and CSS3 far sooner than for Javascript and PHP. This is logical since I started as a noob in Javascript and the training in PHP starts at a later date.
+              <p>It is always difficult to attach a timeframe to gaining skills and experience. But in this case I can work within a set timeframe since CodeGorilla offers a three months training in Javascript and PHP. </p>
+              <p>As you can see in the chart below, I anticipate to be on a 'pro' level for HTML5 and CSS3 far sooner than for Javascript and PHP. This is logical since I started as a noob in Javascript and the training in PHP starts at a later date.
               </p>
               <div class="graph_stacked">
                   <div class="col">
@@ -241,8 +241,8 @@
  
                 <h2 id="needs">My needs</h2>
                 <p>
-                In order to learn effecient, I need a coach and a wizard who can help me trouble shoot my codes. I also need somebody who can regularly explain why codes work like they do.</p>
-                <p>CodeGorilla will be able to profide for these needs.</p>
+                In order to learn efficiently, I need a coach and a wizard who can help me trouble shoot my codes. I also need somebody who can regularly explain why codes work like they do.</p>
+                <p>CodeGorilla will be able to provide for these needs.</p>
 
 
 
@@ -266,9 +266,9 @@
       <!-- Social media buttons from the left -->
       
       <h1 id="portfolio">Portfolio</h1>
-      <p>A portfolio might be the first thing you would click on in a website. After all, it tells you in one glimps what kind of person you are dealing with and what they are capable of. So I hope you will find what you are looking for here, but don't forget to check out the other pages of this website too!</p>
+      <p>A portfolio might be the first thing you would click on in a website. After all, it tells you in one glimpse what kind of person you are dealing with and what they are capable of. So I hope you will find what you are looking for here, but don't forget to check out the other pages of this website too!</p>
       <p>What do I have to show for so far? I have some old websites for you to inspect, a beautiful adressbook in Javascript and a animated snowman in Javascript.</p>
-      <p>Ofcourse I will contineu to fill this page with lots of work. So check in once in a while to see whats going on.
+      <p>Of course I will continue to fill this page with lots of work. So check in once in a while to see what's going on.
       </p>
       <p>Check out my portfolio:</p>
       <ul style="list-style: none">
@@ -287,8 +287,8 @@
 
           <h2>Adressbook in Javascript</h2>
           <p>
-           This adressbook gives you the oppertunity to keep track off all your contacts. The adressbook is build using Javascript, and the contacts are stored in you localhost. The pages are all written in one file and hidden by default. You make the pages visible by clicking on the appropriete link, chaning the display of the corresponding page to visible.</p>
-           <p>The app will be further develloped so you can also keep track of the mails you have send them. The app will feature a checklist function so you can choose which contacts you need to send a card for a special occasion, like an invitation or a christmascard.
+           This adressbook gives you the opportunity to keep track of all your contacts. The adressbook is build using Javascript, and the contacts are stored in you localhost. The pages are all written in one file and hidden by default. You make the pages visible by clicking on the appropriate link, changing the display of the corresponding page to visible.</p>
+           <p>The app will be further developed so you can also keep track of the mails you have send them. The app will feature a checklist function so you can choose which contacts you need to send a card for a special occasion, like an invitation or a Christmas card.
          </p>
          
           <div class="portfolio_show_items">
@@ -316,8 +316,8 @@
             </a>
           </div>
 
-         <h2>Upcoming: Puzzle for special need todlers</h2>
-          <p>My next project will be a small game for todlers. My own two four-year olds love to puzzle, so I will build a puzzle app using high contrast pictures suitable for children with bad vision, colour blindness, high sencitivity and autism.</p>
+         <h2>Upcoming: Puzzle for special need toddlers</h2>
+          <p>My next project will be a small game for toddlers. My own two four-year olds love to puzzle, so I will build a puzzle app using high contrast pictures suitable for children with bad vision, colour blindness, high sensitivity and autism.</p>
           <p>I tend to make this app available in the appstores.</p>  
           <div class="center">
             <img src="./images/puzzel.png" alt="Puzzel app upcoming" width="200px" />
@@ -345,7 +345,7 @@
           </div>
           
          <h2>Heksennacht / Reclaim the Night</h2>
-         <p>This is actually one of the first websites I have build, it is over 10 years old. It has not been updated in content or codes for the last years.</p>
+         <p>This is actually one of the first websites I have built, it is over 10 years old. It has not been updated in content or codes for the last years.</p>
          <div class="center">  
             <a href="http://www.esmeraldatijhoff.nl/heksennacht/index.php" target="_blank" class="clearlink">
               <img src="./images/heksennacht.png" alt="screenshot of the website of the heksennacht also known as Reclaim the Night" width="80%" />
@@ -388,7 +388,7 @@
         <div id="contact" class="content">
              <h1>Contact</h1>
               <p>Hi! </br>
-                Use this form to send me a message, or decipher and copy my e-mail adress so you can use your own e-mail sevice.</p>
+                Use this form to send me a message, or decipher and copy my e-mail address so you can use your own e-mail service.</p>
                 <p>I would love to hear from you!</p>
                 <div class="center"><p> 
                   <a href="mailto:esmeraldatijhoff@yahoo.com">EsmeraldaTijhoff at yahoo dot com</a></p>
@@ -401,7 +401,7 @@
                   <input type="text" id="firstname" name="firstname" placeholder="Your first name"/>
                   <label for="lastname">Last Name</label>
                   <input type="text" id="lastname" name="lastname" placeholder="Your last name"/>
-                  <label for="email">E-mail adress</label>
+                  <label for="email">E-mail address</label>
                   <input type="text" id="email" name="email" placeholder="Your e-mail adress"/>      
                   <label for="message">Your message</label>
                   <textarea id="message" name="message" placeholder="Your message" style="height:200px;"></textarea>
